@@ -40,3 +40,8 @@ h2 {
   font-weight: 300;
 }
 /* course part end here */
+/* feedback part start here */
+.title-text {
+  text-align: center;
+}
+/* feedback part end here */
