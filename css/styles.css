@@ -1,0 +1,42 @@
+/* nav - part start here  */
+
+.logo-color {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.register-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.nav-text {
+  font-family: "Poppins", sans-serif;
+}
+nav li {
+  padding: 0px 15px;
+}
+/* nav part end here  */
+/* slider-part start here  */
+.text-style {
+  padding-bottom: 150px;
+  line-height: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* slider-part end here  */
+/* course -part start here  */
+.course-text-part {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.course-text-part p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+/* course part end here */
