@@ -70,15 +70,55 @@ footer {
   color: white;
 }
 /* responsive */
-
 @media screen and (max-width: 576px) {
   #company {
     visibility: hidden;
   }
-}
+  .carousel-control-prev {
+    visibility: hidden;
+  }
+  .carousel-control-next {
+    visibility: hidden;
+  }
 
-@media screen and (min-width: 575px) and (max-width: 768px) {
+  .text-style {
+    padding-bottom: 0px;
+    line-height: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .text-style h1 {
+    font-size: 18px;
+    line-height: 0;
+  }
+  .text-style p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .d-none {
+    display: block;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  #course img {
+    width: 100%;
+  }
+
+  #register-now .text-primary {
+    margin-bottom: 30px;
+  }
+}
+/* -------------------Tab-------------------- */
+@media screen and (min-width: 768px) and (max-width: 991) {
   #company {
     visibility: hidden;
+  }
+  .text-style {
+    padding-bottom: 50px;
+    line-height: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
   }
 }
