@@ -109,12 +109,14 @@ footer {
   }
   #company {
     visibility: hidden;
+    margin: 0px;
   }
 }
 /* -------------------Tab-------------------- */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #company {
     visibility: hidden;
+    margin: 0px;
   }
   /* banner-part */
   .text-primary {
